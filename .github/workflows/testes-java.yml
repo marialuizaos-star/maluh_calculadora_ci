@@ -20,4 +20,4 @@ jobs:
           cache: 'maven'
 
       - name: Executar os testes
-        run: mvn -B test
+        run: mvn -B test -Djava.version=21
